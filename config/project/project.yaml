@@ -1,4 +1,4 @@
-dateModified: 1679617195
+dateModified: 1696330400
 email:
   fromEmail: info@putyourlightson.net
   fromName: 'Craft Coding Challenge'
@@ -9,19 +9,20 @@ graphql:
     expiryDate: null
 meta:
   __names__:
-    0b13c242-c4bf-4365-b5d1-fd1fe51676d8: 'Public Schema'
     0d89c679-f6f5-42ae-8341-4bea917c6af7: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
-    0779f354-f5d2-4f82-9a36-28a252f70ce4: 'Public Schema' # Public Schema
-    31006d4c-2f40-498c-9a4c-69cff4fd4279: Common # Common
-    b55012be-3f7f-4150-b59c-5a6623c00743: 'Public Schema' # Public Schema
-    c7c2807b-84cc-4e1f-9279-af044bc0b472: 'Public Schema' # Public Schema
     f255ef6d-0c55-4bdc-9ced-f610bbb3bed6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    f200013a-96be-4073-8522-84e1574099c7: Simple # Simple
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: pro
   live: true
   name: $CRAFT_SITE_NAME
   retryDuration: null
-  schemaVersion: 4.4.0.4
+  schemaVersion: 5.0.0.8
   timeZone: America/Los_Angeles
 users:
   allowPublicRegistration: false
