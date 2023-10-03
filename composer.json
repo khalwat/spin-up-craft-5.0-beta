@@ -1,0 +1,26 @@
+{
+  "require": {
+    "craftcms/cms": "5.0.x-dev as 5.0.0-alpha",
+    "craftcms/ckeditor": "4.0.x-dev",
+    "craftcms/redactor": "4.0.x-dev",
+    "vlucas/phpdotenv": "^5.4.0"
+  },
+  "require-dev": {
+    "craftcms/generator": "2.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "modules\\": "modules/"
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "craftcms/plugin-installer": true,
+      "yiisoft/yii2-composer": true
+    },
+    "sort-packages": true,
+    "platform": {
+      "php": "8.2"
+    }
+  }
+}
