@@ -1,4 +1,6 @@
 {
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "require": {
     "craftcms/cms": "5.0.x-dev as 5.0.0-alpha",
     "craftcms/ckeditor": "4.0.x-dev",
