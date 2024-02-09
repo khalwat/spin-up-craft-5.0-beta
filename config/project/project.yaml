@@ -1,7 +1,11 @@
-dateModified: 1696330400
+dateModified: 1707479472
 email:
-  fromEmail: info@putyourlightson.net
-  fromName: 'Craft Coding Challenge'
+  fromEmail: info@nystudio107.com
+  fromName: 'Spin Up Craft'
+  replyToEmail: null
+  template: ''
+  transportSettings:
+    command: '/usr/sbin/sendmail -bs'
   transportType: craft\mail\transportadapters\Sendmail
 graphql:
   publicToken:
@@ -22,11 +26,5 @@ system:
   live: true
   name: $CRAFT_SITE_NAME
   retryDuration: null
-  schemaVersion: 5.0.0.8
+  schemaVersion: 5.0.0.19
   timeZone: America/Los_Angeles
-users:
-  allowPublicRegistration: false
-  defaultGroup: null
-  photoSubpath: null
-  photoVolumeUid: null
-  requireEmailVerification: true

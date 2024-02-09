@@ -1,14 +1,14 @@
-# Spin Up Craft 5.0 Alpha
+# Spin Up Craft 5.0 Beta
 
-If you want to give the new Craft CMS 5.0 Alpha without having to do any setup, this project is for you!
+If you want to give the new Craft CMS 5.0 Beta without having to do any setup, this project is for you!
 
-It allows you to spin up the Craft CMS 5.0 Alpha in your browser via Github Codespaces, or on your local computer with a few quick commands.
+It allows you to spin up the Craft CMS 5.0 Beta in your browser via Github Codespaces, or on your local computer with a few quick commands.
 
 Whether in-browser or on your local computer, you'll have a fully functional Craft CMS instance with an editor, content, Twig templates, and a database.
 
 This project was created using [Spin Up Craft](https://github.com/nystudio107/spin-up-craft)
 
-## Spin Up Craft 5.0 Alpha in a browser via Github Codespaces
+## Spin Up Craft 5.0 Beta in a browser via Github Codespaces
 
 1. Click this button:
 
@@ -39,20 +39,20 @@ Click on one to resume it. If you don't see a Terminal window, go to the hamburg
 
 You are limited to 15 active Codespaces on the free plan, but you can go in and delete any older Codespaces you're not using at any time.
 
-## Spin Up Craft 5.0 Alpha in local dev
+## Spin Up Craft 5.0 Beta in local dev
 
 1. Have [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed
-2. Clone this repository down with `git clone https://github.com/khalwat/spin-up-craft-5.0-alpha.git`
+2. Clone this repository down with `git clone https://github.com/khalwat/spin-up-craft-5.0-beta.git`
 3. `cd` to your repo in your terminal
 4. Get the project up and running with `make dev`
 5. Wait until you see output like this, and then access the site via the credentials that are output on the console:
 
 ```
-spin-up-craft-50-alpha-php-1    | ### Your Craft site is ready!
-spin-up-craft-50-alpha-php-1    | Frontend URL: http://localhost:8050/
-spin-up-craft-50-alpha-php-1    | CP URL: http://localhost:8050/admin
-spin-up-craft-50-alpha-php-1    | CP User: admin
-spin-up-craft-50-alpha-php-1    | CP Password: project
+spin-up-craft-50-beta-php-1    | ### Your Craft site is ready!
+spin-up-craft-50-beta-php-1    | Frontend URL: http://localhost:8050/
+spin-up-craft-50-beta-php-1    | CP URL: http://localhost:8050/admin
+spin-up-craft-50-beta-php-1    | CP User: admin
+spin-up-craft-50-beta-php-1    | CP Password: project
 ```
 
 Hit `Control-C` to terminate the project and spin down the containers
@@ -83,6 +83,6 @@ If the project is already running via `make dev` you can use a second terminal t
 
 ## To Do
 
-- Enjoy kicking Craft CMS 5.0 Alpha's tires!
+- Enjoy kicking Craft CMS 5.0 Beta's tires!
 
 Brought to you by [nystudio107](https://nystudio107.com/)
