@@ -2,13 +2,13 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "craftcms/cms": "^5.0.0-beta.1",
-    "craftcms/ckeditor": "^4.0.0-beta.1",
-    "craftcms/redactor": "4.0.x-dev",
+    "craftcms/cms": "^5.0.0",
+    "craftcms/ckeditor": "^4.0.0",
+    "craftcms/redactor": "4.0.0",
     "vlucas/phpdotenv": "^5.4.0"
   },
   "require-dev": {
-    "craftcms/generator": "2.0.x-dev"
+    "craftcms/generator": "2.0.0"
   },
   "autoload": {
     "psr-4": {
