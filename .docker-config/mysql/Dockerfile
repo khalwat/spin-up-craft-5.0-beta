@@ -1,1 +1,1 @@
-FROM jbergstroem/mariadb-alpine:latest
+FROM mysql/mysql-server:latest
