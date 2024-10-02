@@ -1,5 +1,9 @@
 # nystudio107/spin-up-craft Change Log
 
+## 1.0.16 - 2024.10.02
+### Added
+* Use `mysql/mysql-server:latest` as the base for `mysql` Docker images since MariaDB isn't as well supported on Craft 5
+
 ## 1.0.15 - 2023.07.24
 ### Added
 * Use PHP 8.2 as the base for `spin-up-craft-base` Docker images
